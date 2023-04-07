@@ -1,4 +1,4 @@
-.catalogue__arrow-button {
+.button_type_arrow {
   background-image: url("../../../images/catalogue-arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -9,6 +9,6 @@
   border-radius: 50%;
 }
 
-.catalogue__arrow-button:hover {
+.button_type_arrow:hover {
   opacity: 0.7;
 }
