@@ -1,0 +1,9 @@
+.catalogue__number {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #292d32;
+  margin: 40px 0 0 40px;
+}

@@ -1,0 +1,48 @@
+/* fonts */
+
+@import url("./vendor/fonts/fonts.css");
+
+/* global */
+
+@import url("./vendor/normalize.css");
+@import url("./blocks/body/body.css");
+@import url("./blocks/root/root.css");
+@import url("./blocks/content/content.css");
+@import url("./blocks/button/button.css");
+
+/* header */
+
+@import url("./blocks/header/header.css");
+@import url("./blocks/header/__left-section/header__left-section.css");
+@import url("./blocks/header/__logo/header__logo.css");
+@import url("./blocks/header/__menu/header__menu.css");
+@import url("./blocks/header/__mid-panel/header__mid-panel.css");
+@import url("./blocks/header/__nav-item/header__nav-item.css");
+@import url("./blocks/header/__nav-link/header__nav-link.css");
+@import url("./blocks/header/__nav/header__nav.css");
+@import url("./blocks/header/__search-button/header__search-button.css");
+
+/* menu in header */
+
+@import url("./blocks/menu/__icon/menu__icon.css");
+@import url("./blocks/menu/__item/menu__item.css");
+@import url("./blocks/menu/__items-quantity/menu__items-quantity.css");
+@import url("./blocks/menu/__link/menu__link.css");
+
+/* catalogue section */
+
+@import url("./blocks/catalogue/catalogue.css");
+@import url("./blocks/catalogue/__arrow-button/catalogue__arrow-button.css");
+@import url("./blocks/catalogue/__category/catalogue__category.css");
+@import url("./blocks/catalogue/__container/catalogue__container.css");
+@import url("./blocks/catalogue/__desc/catalogue__desc.css");
+@import url("./blocks/catalogue/__direct/catalogue__direct.css");
+@import url("./blocks/catalogue/__item/catalogue__item.css");
+@import url("./blocks/catalogue/__link/catalogue__link.css");
+@import url("./blocks/catalogue/__number/catalogue__number.css");
+@import url("./blocks/catalogue/__picture/catalogue__picture.css");
+@import url("./blocks/catalogue/__text/catalogue__text.css");
+@import url("./blocks/catalogue/__bottom-info/catalogue__bottom-info.css");
+@import url("./blocks/catalogue/__quantity/catalogue__quantity.css");
+@import url("./blocks/catalogue/__title-card/catalogue__title-card.css");
+@import url("./blocks/catalogue/__title/catalogue__title.css");

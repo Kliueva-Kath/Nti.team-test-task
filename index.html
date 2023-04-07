@@ -5,72 +5,168 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Вебсайт Dell</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
-    <header>
-      <img class="header__logo" src="./images/header__logo.svg" />
-      <div class="header__mid-section">
-        <nav>
-          <ul class="header__nav">
-            <li class="header__nav-item">
-              <a class="header__nav-text">Главная</a>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <div class="header__left-section">
+          <img class="header__logo" src="./images/header__logo.svg" />
+          <div class="header__mid-panel">
+            <nav class="nav">
+              <ul class="header__nav">
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Главная</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Каталог</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Новости</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Наш АСЦ</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__search-button button" type="button"></button>
+          </div>
+        </div>
+        <ul class="header__menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <img
+                class="menu__icon"
+                src="./images/header__account-icon.svg"
+                alt="аккаунт"
+              />
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <img
+                class="menu__icon"
+                src="./images/header__chart-icon.svg"
+                alt="сравнить"
+              />
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <img
+                class="menu__icon"
+                src="./images/header__saved-icon.png"
+                alt="избранное"
+              />
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <img
+                class="menu__icon"
+                src="./images/header__bag-icon.svg"
+                alt="корзина"
+              />
+              <span class="menu__items-quantity">3</span>
+            </a>
+          </li>
+        </ul>
+      </header>
+      <main class="content">
+        <section class="slider"></section>
+        <section class="catalogue">
+          <ul class="catalogue__container">
+            <li class="catalogue__title-card">
+              <span class="catalogue__title">Каталог товаров от Dell</span>
+              <p class="catalogue__desc">
+                Наша компания является зарегистрированным и официальным
+                партнером Dell в России.
+              </p>
+              <div class="catalogue__direct">
+                <button type="button" class="catalogue__arrow-button"></button>
+                <a href="#" class="catalogue__link">В каталог</a>
+              </div>
             </li>
-            <li class="header__nav-item">
-              <a class="header__nav-text">Каталог</a>
+            <li class="catalogue__item">
+              <img
+                class="catalogue__picture"
+                alt="ноутбук"
+                src="./images/catalogue__laptop.png"
+              />
+              <div class="catalogue__text">
+                <span class="catalogue__number">01</span>
+                <div class="catalogue__bottom-info">
+                  <p class="catalogue__quantity">105 товаров</p>
+                  <a href="#" class="catalogue__category">Ноутбуки</a>
+                </div>
+              </div>
             </li>
-            <li class="header__nav-item">
-              <a class="header__nav-text">Новости</a>
+            <li class="catalogue__item">
+              <img
+                class="catalogue__picture"
+                alt="персональный компьютер"
+                src="./images/catalogue_PC.png"
+              />
+              <div class="catalogue__text">
+                <span class="catalogue__number">02</span>
+                <div class="catalogue__bottom-info">
+                  <p class="catalogue__quantity">65 товаров</p>
+                  <a href="#" class="catalogue__category"
+                    >Персональные компьютеры</a
+                  >
+                </div>
+              </div>
             </li>
-            <li class="header__nav-item">
-              <a class="header__nav-text">Наш АСЦ</a>
+            <li class="catalogue__item">
+              <img
+                class="catalogue__picture"
+                alt="сервер"
+                src="./images/catalogue__server.png"
+              />
+              <div class="catalogue__text">
+                <span class="catalogue__number">03</span>
+                <div class="catalogue__bottom-info">
+                  <p class="catalogue__quantity">13 товаров</p>
+                  <a href="#" class="catalogue__category">Cерверы</a>
+                </div>
+              </div>
             </li>
-            <li class="header__nav-item">
-              <a class="header__nav-text">Контакты</a>
+            <li class="catalogue__item">
+              <img
+                class="catalogue__picture"
+                alt="Dell EMC"
+                src="./images/catalogue__EMC.png"
+              />
+              <div class="catalogue__text">
+                <span class="catalogue__number">04</span>
+                <div class="catalogue__bottom-info">
+                  <p class="catalogue__quantity">2345 товаров</p>
+                  <a href="#" class="catalogue__category">Dell EMC</a>
+                </div>
+              </div>
+            </li>
+            <li class="catalogue__item">
+              <img
+                class="catalogue__picture"
+                alt="Запасные части к Dell EMC"
+                src="./images/catalogue__parts.png"
+              />
+              <div class="catalogue__text">
+                <span class="catalogue__number">05</span>
+                <div class="catalogue__bottom-info">
+                  <p class="catalogue__quantity">195 товаров</p>
+                  <a href="#" class="catalogue__category"
+                    >Запасные части к Dell EMC</a
+                  >
+                </div>
+              </div>
             </li>
           </ul>
-        </nav>
-        <button class="header__search-button" type="button"></button>
-      </div>
-
-      <ul class="header__menu">
-        <li class="header_menu-item">
-          <a class="header__menu-link" href="#">
-            <img
-              class="header__menu-icon"
-              src="./images/header__account-icon.svg"
-              alt="аккаунт"
-            />
-          </a>
-        </li>
-        <li class="header_menu-item">
-          <a class="header__menu-link" href="#">
-            <img
-              class="header__menu-icon"
-              src="./images/header__chart-icon.svg"
-              alt="сравнить"
-            />
-          </a>
-        </li>
-        <li class="header_menu-item">
-          <a class="header__menu-link" href="#">
-            <img
-              class="header__menu-icon"
-              src="./images/header__saved-icon.svg"
-              alt="избранное"
-            />
-          </a>
-        </li>
-        <li class="header_menu-item">
-          <a class="header__menu-link" href="#">
-            <img
-              class="header__menu-icon"
-              src="./images/header__bag-icon.svg"
-              alt="корзина"
-            />
-            <span class="header__items-quantity">3</span>
-          </a>
-        </li>
-      </ul>
-    </header>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

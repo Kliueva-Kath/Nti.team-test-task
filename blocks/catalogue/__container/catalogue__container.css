@@ -1,0 +1,12 @@
+.catalogue__container {
+  display: grid;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, 440px);
+  grid-template-rows: repeat(auto-fit, 371px);
+  column-gap: 17px;
+  row-gap: 20px;
+  justify-content: center;
+  gap: 40px;
+}

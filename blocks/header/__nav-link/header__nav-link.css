@@ -1,0 +1,15 @@
+.header__nav-link {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #292d32;
+}
+
+.header__nav-link:hover {
+  opacity: 0.7;
+}

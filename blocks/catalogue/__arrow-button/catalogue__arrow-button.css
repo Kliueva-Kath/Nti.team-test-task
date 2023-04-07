@@ -1,0 +1,14 @@
+.catalogue__arrow-button {
+  background-image: url("../../../images/catalogue-arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  border: none;
+  background-color: #33a9ff;
+  border-radius: 50%;
+}
+
+.catalogue__arrow-button:hover {
+  opacity: 0.7;
+}

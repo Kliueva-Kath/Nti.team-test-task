@@ -1,0 +1,7 @@
+.header__mid-panel {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+  min-width: 733px;
+}

@@ -1,0 +1,5 @@
+.header__left-section {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}

@@ -1,0 +1,7 @@
+/* сброс стилей по умолчанию для кнопок */
+
+.button {
+  appearance: none;
+  box-sizing: border-box;
+  display: block;
+}

@@ -1,0 +1,6 @@
+.root {
+  font-family: "Roboto", "Arial", sans-serif;
+  min-width: 375px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
