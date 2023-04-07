@@ -1,0 +1,13 @@
+.catalogue__category {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #292d32;
+  text-decoration: none;
+}
+
+.catalogue__category:hover {
+  opacity: 0.7;
+}

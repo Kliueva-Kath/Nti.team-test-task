@@ -41,6 +41,11 @@
 @import url("./blocks/catalogue/__link/catalogue__link.css");
 @import url("./blocks/catalogue/__number/catalogue__number.css");
 @import url("./blocks/catalogue/__picture/catalogue__picture.css");
+@import url("./blocks/catalogue/__picture/_type/catalogue__picture_type_emc.css");
+@import url("./blocks/catalogue/__picture/_type/catalogue__picture_type_laptop.css");
+@import url("./blocks/catalogue/__picture/_type/catalogue__picture_type_parts.css");
+@import url("./blocks/catalogue/__picture/_type/catalogue__picture_type_pc.css");
+@import url("./blocks/catalogue/__picture/_type/catalogue__picture_type_server.css");
 @import url("./blocks/catalogue/__text/catalogue__text.css");
 @import url("./blocks/catalogue/__bottom-info/catalogue__bottom-info.css");
 @import url("./blocks/catalogue/__quantity/catalogue__quantity.css");
