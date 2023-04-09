@@ -1,4 +1,4 @@
-.catalogue__link {
+.direct__link {
   font-family: "Roboto", "Arial", sans-serif;
   text-decoration: none;
   font-style: normal;
@@ -6,8 +6,9 @@
   font-size: 16px;
   line-height: 1.88;
   color: #292d32;
+  margin: 0;
 }
 
-.catalogue__link:hover {
+.direct__link:hover {
   opacity: 0.7;
 }

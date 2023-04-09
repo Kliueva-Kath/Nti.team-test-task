@@ -9,7 +9,9 @@
 @import url("./blocks/root/root.css");
 @import url("./blocks/content/content.css");
 @import url("./blocks/button/button.css");
-@import url("./blocks/button/_type/button_type_arrow.css");
+@import url("./blocks/direct/direct.css");
+@import url("./blocks/direct/__button/direct__button.css");
+@import url("./blocks/direct/__link/direct__link.css");
 
 /* header */
 
@@ -61,6 +63,7 @@
 @import url("./blocks/advantage/__card/advantage__card.css");
 @import url("./blocks/advantage/__cards-container/advantage__cards-container.css");
 @import url("./blocks/advantage/__cards/advantage__cards.css");
+@import url("./blocks/advantage/__card-descr/advantage__card-descr.css");
 @import url("./blocks/advantage/__descr/advantage__descr.css");
 @import url("./blocks/advantage/__direct/advantage__direct.css");
 @import url("./blocks/advantage/__header/advantage__header.css");

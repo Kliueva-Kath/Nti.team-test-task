@@ -1,0 +1,11 @@
+.advantage__card-descr {
+  font-family: "Euclid Circular A", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #b7b7b7;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}

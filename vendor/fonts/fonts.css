@@ -29,3 +29,19 @@
   font-display: swap;
   src: url("./Roboto-Thin.ttf") format("ttf");
 }
+
+@font-face {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./EuclidCircularA-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./EuclidCircularA-Light.ttf") format("ttf");
+}

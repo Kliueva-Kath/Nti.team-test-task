@@ -1,0 +1,7 @@
+.advantage__top {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding: 87px 0 0 165px;
+  gap: 74px;
+}

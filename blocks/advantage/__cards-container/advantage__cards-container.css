@@ -1,0 +1,8 @@
+.advantage__cards-container {
+  display: flex;
+  max-width: 1401px;
+  margin: 48px auto 46px;
+  padding: 0;
+  list-style: none;
+  gap: 27px;
+}
