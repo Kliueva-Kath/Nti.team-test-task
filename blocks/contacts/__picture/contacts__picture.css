@@ -1,0 +1,6 @@
+.contacts__picture {
+  position: absolute;
+  left: 492px;
+  top: 142px;
+  z-index: 2;
+}

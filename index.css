@@ -12,6 +12,7 @@
 @import url("./blocks/direct/direct.css");
 @import url("./blocks/direct/__button/direct__button.css");
 @import url("./blocks/direct/__link/direct__link.css");
+@import url("./blocks/direct/__link/direct__link_dark.css");
 
 /* header */
 
@@ -94,3 +95,37 @@
 @import url("./blocks/news/__date/news__date.css");
 @import url("./blocks/news/__day/news__day.css");
 @import url("./blocks/news/__month/news__month.css");
+
+/* contacts section */
+
+@import url("./blocks/contacts/contacts.css");
+@import url("./blocks/contacts/__background-image/contacts__background-image.css");
+@import url("./blocks/contacts/__contact/contacts__contact.css");
+@import url("./blocks/contacts/__container/contacts__container.css");
+@import url("./blocks/contacts/__content/contacts__content.css");
+@import url("./blocks/contacts/__descr/contacts__descr.css");
+@import url("./blocks/contacts/__descr/_type/contacts__descr_type_dark.css");
+@import url("./blocks/contacts/__descr/_type/contacts__descr_type_light.css");
+@import url("./blocks/contacts/__form-container/contacts__form-container.css");
+@import url("./blocks/contacts/__form/contacts__form.css");
+@import url("./blocks/contacts/__header/contacts__header.css");
+@import url("./blocks/contacts/__icon/contacts__icon.css");
+@import url("./blocks/contacts/__info/contacts__info.css");
+@import url("./blocks/contacts/__info/_type/contact__info_type_address.css");
+@import url("./blocks/contacts/__info/_type/contact__info_type_email.css");
+@import url("./blocks/contacts/__info/_type/contact__info_type_phone.css");
+@import url("./blocks/contacts/__input/contacts__input.css");
+@import url("./blocks/contacts/__input/contacts__input_big.css");
+@import url("./blocks/contacts/__input/contacts__input_small.css");
+@import url("./blocks/contacts/__input-wrapper/contacts__input-wrapper.css");
+@import url("./blocks/contacts/__label/contacts__label.css");
+@import url("./blocks/contacts/__link/contacts__link.css");
+@import url("./blocks/contacts/__picture/contacts__picture.css");
+@import url("./blocks/contacts/__social/contacts__social.css");
+@import url("./blocks/contacts/__socials/contacts__socials.css");
+@import url("./blocks/contacts/__submit-bttn/contacts__submit-bttn.css");
+@import url("./blocks/contacts/__text/contacts__text.css");
+@import url("./blocks/contacts/__title/contacts__title.css");
+@import url("./blocks/contacts/__title/_type/contacts__title_type_dark.css");
+@import url("./blocks/contacts/__title/_type/contacts__title_type_light.css");
+@import url("./blocks/contacts/__us/contacts__us.css");

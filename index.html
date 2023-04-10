@@ -431,15 +431,22 @@
 
         <section class="contacts">
           <img
-            class="contacts__picture"
-            src="./images/contacts-iPhone.png"
-            alt="iPhone 13 Pro Max"
+            class="contacts__background-image"
+            src="./images/contacts-background-image.svg"
+            alt="our contacts"
           />
           <ul class="contacts__content">
+            <img
+              class="contacts__picture"
+              src="./images/contacts-iPhone.png"
+              alt="iPhone 13 Pro Max"
+            />
             <li class="contacts__us">
-              <span class="contacts__title">Наши контакты</span>
-              <p class="contacts__descr">
-                Вы можете связаться с нашим онлайн-консультантом
+              <span class="contacts__title contacts__title_type_light"
+                >Наши контакты</span
+              >
+              <p class="contacts__descr contacts__descr_type_light">
+                Вы можете связаться с нашим онлайн-консультантом
               </p>
               <ul class="contacts__container">
                 <li class="contacts__contact">
@@ -450,7 +457,7 @@
                   />
                   <div class="contacts__text">
                     <span class="contacts__header">Адрес</span>
-                    <p class="contacts__info">
+                    <p class="contacts__info contact__info_type_address">
                       Москва, ул. 3-я Хорошевская, дом 2, строение 1
                     </p>
                   </div>
@@ -463,7 +470,9 @@
                   />
                   <div class="contacts__text">
                     <span class="contacts__header">E-mail</span>
-                    <p class="contacts__info">dell_ru@gmail.com</p>
+                    <p class="contacts__info contact__info_type_email">
+                      dell_ru@gmail.com
+                    </p>
                   </div>
                 </li>
                 <li class="contacts__contact">
@@ -474,7 +483,7 @@
                   />
                   <div class="contacts__text">
                     <span class="contacts__header">Телефон</span>
-                    <p class="contacts__info">
+                    <p class="contacts__info contact__info_type_phone">
                       +7 495 737-06-01 <br />+7 495 737-06-01
                     </p>
                   </div>
@@ -482,14 +491,14 @@
               </ul>
               <ul class="contacts__socials">
                 <li class="contacts__social">
-                  <a class="contacts__link"
+                  <a class="contacts__link" href="#"
                     ><img
                       class="contacts__icon"
                       src="./images/contacts-facebook.svg"
                   /></a>
                 </li>
                 <li class="contacts__social">
-                  <a class="contacts__link"
+                  <a class="contacts__link" href="#"
                     ><img
                       class="contacts__icon"
                       src="./images/contacts-whatsapp.svg"
@@ -498,22 +507,41 @@
               </ul>
             </li>
             <li class="contacts__form-container">
-              <span class="contacts__title">Оставьте заявку</span>
-              <p class="contacts__descr">
+              <span class="contacts__title contacts__title_type_dark"
+                >Оставьте заявку</span
+              >
+              <p class="contacts__descr contacts__descr_type_dark">
                 Оставьте свой номер, и мы перезвоним Вам.
               </p>
               <form class="contacts__form">
-                <label class="contacts__label">Ваше имя</label>
-                <input class="contacts__input" type="text" />
-                <label class="contacts__label">Номер телефона</label>
-                <input class="contacts__input" type="tel" />
-                <label class="contacts__label">Комментарий</label>
-                <input class="contacts__input contacts__comment" type="text" />
-                <button
-                  type="submit"
-                  class="contacts__submit-bttn button direct"
-                ></button>
-                <label class="direct__link">Заказать</label>
+                <div class="contacts__input-wrapper">
+                  <label class="contacts__label">Ваше имя</label>
+                  <input
+                    class="contacts__input contacts__input_small"
+                    type="text"
+                  />
+                </div>
+                <div class="contacts__input-wrapper">
+                  <label class="contacts__label">Номер телефона</label>
+                  <input
+                    class="contacts__input contacts__input_small"
+                    type="tel"
+                  />
+                </div>
+                <div class="contacts__input-wrapper">
+                  <label class="contacts__label">Комментарий</label>
+                  <input
+                    class="contacts__input contacts__input_big"
+                    type="text"
+                  />
+                </div>
+                <div class="contacts__button-wrapper direct">
+                  <button
+                    type="submit"
+                    class="contacts__submit-bttn button direct__button"
+                  ></button>
+                  <label class="direct__link direct__link_dark">Заказать</label>
+                </div>
               </form>
             </li>
           </ul>

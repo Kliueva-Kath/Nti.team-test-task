@@ -1,0 +1,7 @@
+.direct__link_dark {
+  color: #ffffff;
+}
+
+.direct__link_dark:hover {
+  opacity: 1;
+}
