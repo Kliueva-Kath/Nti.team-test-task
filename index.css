@@ -73,3 +73,21 @@
 @import url("./blocks/advantage/__text/advantage__text.css");
 @import url("./blocks/advantage/__title/advantage__title.css");
 @import url("./blocks/advantage/__top/advantage__top.css");
+
+/* news section */
+
+@import url("./blocks/news/news.css");
+@import url("./blocks/news/__container/news__container.css");
+@import url("./blocks/news/__card-descr/news__card-descr.css");
+@import url("./blocks/news/__card/news__card.css");
+@import url("./blocks/news/__cards-container/news__cards-container.css");
+@import url("./blocks/news/__cards/news__cards.css");
+@import url("./blocks/news/__descr/news__descr.css");
+@import url("./blocks/news/__direct/news__direct.css");
+@import url("./blocks/news/__header/news__header.css");
+@import url("./blocks/news/__picture/news__picture.css");
+@import url("./blocks/news/__text/news__text.css");
+@import url("./blocks/news/__title/news__title.css");
+@import url("./blocks/news/__top/news__top.css");
+@import url("./blocks/news/__top-text/news__top-text.css");
+@import url("./blocks/news/__arrow-button/news__arrow-button.css");

@@ -1,0 +1,10 @@
+.news__cards-container {
+  display: grid;
+  list-style: none;
+  margin: 69px 0 0;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, 415px);
+  grid-template-rows: repeat(auto-fit, 364px);
+  column-gap: 65px;
+  row-gap: 40px;
+}

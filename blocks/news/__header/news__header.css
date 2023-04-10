@@ -1,0 +1,20 @@
+.news__header {
+  display: block;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.3;
+  color: #292d32;
+  max-width: 245px;
+  /* padding-left: 30px; */
+  text-decoration: none;
+  border-radius: 0 45% 0 0;
+  border: 30px solid #ffffff;
+  background: #fff;
+  margin-top: 218px;
+}
+
+.news__header:hover {
+  opacity: 0.7;
+}

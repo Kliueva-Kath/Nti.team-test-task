@@ -1,0 +1,10 @@
+.news__descr {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #838383;
+  max-width: 721px;
+  margin: 25px 0 0;
+}

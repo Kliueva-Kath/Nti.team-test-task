@@ -1,0 +1,15 @@
+.news__arrow-button {
+  background-image: url("../../../images/catalogue-arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background-color: #292d32;
+  border-radius: 50%;
+  border: 15px solid #ffffff;
+  box-sizing: content-box;
+  padding: 0;
+  margin-right: 31px;
+  margin-top: 236px;
+}
