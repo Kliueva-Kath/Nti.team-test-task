@@ -1,0 +1,5 @@
+.news__direct {
+  flex-direction: row-reverse;
+  gap: 17px;
+  margin-top: 8px;
+}
