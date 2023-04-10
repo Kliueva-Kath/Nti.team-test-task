@@ -1,0 +1,10 @@
+.news__month {
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 1.172;
+  text-align: center;
+  color: #292d32;
+}
