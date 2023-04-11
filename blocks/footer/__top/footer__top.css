@@ -1,0 +1,8 @@
+.footer__top {
+  position: relative;
+  display: flex;
+  align-items: start;
+  gap: 190px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #e5e5e5;
+}

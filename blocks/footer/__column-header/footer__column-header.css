@@ -1,0 +1,9 @@
+.footer__column-header {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: right;
+  color: #292d32;
+}
