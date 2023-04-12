@@ -5,3 +5,10 @@
   position: absolute;
   z-index: 0;
 }
+
+@media screen and (max-width: 450px) {
+  .news__picture {
+    max-width: 324px;
+    object-fit: cover;
+  }
+}

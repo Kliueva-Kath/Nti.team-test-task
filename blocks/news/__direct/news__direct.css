@@ -3,3 +3,10 @@
   gap: 17px;
   margin-top: 8px;
 }
+
+@media screen and (max-width: 450px) {
+  .news__direct {
+    flex-direction: row;
+    margin-top: 0;
+  }
+}

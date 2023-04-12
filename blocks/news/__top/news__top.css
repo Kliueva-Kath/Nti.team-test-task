@@ -3,3 +3,10 @@
   justify-content: space-between;
   align-items: start;
 }
+
+@media screen and (max-width: 450px) {
+  .news__top {
+    flex-direction: column;
+    gap: 33px;
+  }
+}

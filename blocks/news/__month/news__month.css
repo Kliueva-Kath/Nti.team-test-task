@@ -8,3 +8,10 @@
   text-align: center;
   color: #292d32;
 }
+
+@media screen and (max-width: 450px) {
+  .news__month {
+    font-size: 15px;
+    overflow: hidden;
+  }
+}

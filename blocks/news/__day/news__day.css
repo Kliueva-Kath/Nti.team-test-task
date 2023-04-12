@@ -8,3 +8,11 @@
   color: #292d32;
   margin-bottom: 11px;
 }
+
+@media screen and (max-width: 450px) {
+  .news__day {
+    font-size: 18px;
+    padding: 1px;
+    text-align: left;
+  }
+}

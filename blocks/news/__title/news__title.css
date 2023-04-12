@@ -6,3 +6,10 @@
   line-height: 1.18;
   color: #292d32;
 }
+
+@media screen and (max-width: 450px) {
+  .news__title {
+    font-size: 30px;
+    line-height: 1.17;
+  }
+}

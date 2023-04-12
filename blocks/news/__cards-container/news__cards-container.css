@@ -8,3 +8,12 @@
   column-gap: 65px;
   row-gap: 40px;
 }
+
+@media screen and (max-width: 450px) {
+  .news__cards-container {
+    grid-template-columns: repeat(auto-fit, 324px);
+    grid-template-rows: repeat(auto-fit, 293px);
+    row-gap: 19px;
+    margin: 39px 0 0;
+  }
+}

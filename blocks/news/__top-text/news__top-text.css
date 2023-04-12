@@ -6,3 +6,9 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 450px) {
+  .news__top-text {
+    gap: 9px;
+  }
+}

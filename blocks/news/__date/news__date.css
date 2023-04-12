@@ -13,3 +13,12 @@
   width: 50px;
   height: 97px;
 }
+
+@media screen and (max-width: 450px) {
+  .news__date {
+    width: 39px;
+    height: 76px;
+    right: -19px;
+    top: 53px;
+  }
+}

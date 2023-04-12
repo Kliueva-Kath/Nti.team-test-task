@@ -13,8 +13,22 @@
   border: 30px solid #ffffff;
   background: #fff;
   margin-top: 218px;
+  border-bottom: none;
 }
 
 .news__header:hover {
   opacity: 0.7;
+}
+
+@media screen and (max-width: 450px) {
+  .news__header {
+    line-height: 1;
+    margin-top: 152px;
+    max-width: 224px;
+    border-radius: 0 60% 0 0;
+    border-left: 20px solid #ffffff;
+    border-top: 20px solid #ffffff;
+    border-bottom: 0;
+    border-right: 5px solid #ffffff;
+  }
 }

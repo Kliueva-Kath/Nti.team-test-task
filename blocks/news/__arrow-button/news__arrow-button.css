@@ -12,4 +12,15 @@
   padding: 0;
   margin-right: 31px;
   margin-top: 236px;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 450px) {
+  .news__arrow-button {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    margin-top: 185px;
+    border: 10px solid #ffffff;
+  }
 }

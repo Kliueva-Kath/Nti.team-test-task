@@ -8,3 +8,10 @@
   max-width: 721px;
   margin: 25px 0 0;
 }
+
+@media screen and (max-width: 450px) {
+  .news__descr {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}

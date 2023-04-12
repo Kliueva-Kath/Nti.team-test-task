@@ -4,3 +4,10 @@
   padding: 172px 0 502px;
   background: #f5f5f5;
 }
+
+@media screen and (max-width: 450px) {
+  .news {
+    padding: 120px 15px;
+    width: 100%;
+  }
+}
