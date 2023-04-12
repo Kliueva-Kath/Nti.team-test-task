@@ -5,3 +5,9 @@
   position: relative;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 450px) {
+  .catalogue__item {
+    padding: 20px;
+  }
+}

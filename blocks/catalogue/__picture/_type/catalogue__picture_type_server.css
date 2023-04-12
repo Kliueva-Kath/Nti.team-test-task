@@ -2,3 +2,12 @@
   top: 81px;
   left: 51px;
 }
+
+@media screen and (max-width: 450px) {
+  .catalogue__picture_type_server {
+    width: 264px;
+    height: 107px;
+    top: 63px;
+    left: 40px;
+  }
+}

@@ -1,8 +1,17 @@
 .catalogue__title {
+  display: block;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 1;
   color: #292d32;
+}
+
+@media screen and (max-width: 450px) {
+  .catalogue__title {
+    font-size: 30px;
+    line-height: 1.17;
+    max-width: 249px;
+  }
 }

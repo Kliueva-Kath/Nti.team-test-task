@@ -8,3 +8,10 @@
   color: #838383;
   max-width: 372px;
 }
+
+@media screen and (max-width: 450px) {
+  .catalogue__desc {
+    margin: 20px 0 30px;
+    font-size: 15px;
+  }
+}

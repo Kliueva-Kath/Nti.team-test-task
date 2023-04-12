@@ -2,3 +2,9 @@
   margin: 162px auto 180px;
   max-width: 1400px;
 }
+
+@media screen and (max-width: 450px) {
+  .catalogue {
+    margin: 61px 15px 120px;
+  }
+}

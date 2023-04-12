@@ -7,3 +7,10 @@
   color: #838383;
   margin: 0 0 5px;
 }
+
+@media screen and (max-width: 450px) {
+  .catalogue__quantity {
+    font-size: 15px;
+    margin: 0;
+  }
+}

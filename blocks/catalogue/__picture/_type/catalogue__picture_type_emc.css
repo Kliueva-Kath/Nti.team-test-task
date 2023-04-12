@@ -2,3 +2,12 @@
   top: 59px;
   left: 75px;
 }
+
+@media screen and (max-width: 450px) {
+  .catalogue__picture_type_emc {
+    width: 226px;
+    height: 124px;
+    top: 46px;
+    left: 59px;
+  }
+}

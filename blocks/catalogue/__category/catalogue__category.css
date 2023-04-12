@@ -11,3 +11,9 @@
 .catalogue__category:hover {
   opacity: 0.7;
 }
+
+@media screen and (max-width: 450px) {
+  .catalogue__category {
+    font-size: 20px;
+  }
+}
