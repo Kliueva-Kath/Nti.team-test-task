@@ -29,9 +29,13 @@
 /* menu in header */
 
 @import url("./blocks/menu/__icon/menu__icon.css");
+@import url("./blocks/menu/__icon/_type/menu__icon_type_chart.css");
+@import url("./blocks/menu/__icon/_type/menu__icon_type_saved.css");
 @import url("./blocks/menu/__item/menu__item.css");
 @import url("./blocks/menu/__items-quantity/menu__items-quantity.css");
 @import url("./blocks/menu/__link/menu__link.css");
+@import url("./blocks/menu/__show-button/menu__show-button.css");
+@import url("./blocks/menu/__show/menu__show.css");
 
 /* slider section */
 

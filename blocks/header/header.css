@@ -8,3 +8,10 @@
   width: 100%;
   padding: 27px 0 26px;
 }
+
+@media screen and (max-width: 450px) {
+  .header {
+    padding: 15px 10px;
+    justify-content: center;
+  }
+}

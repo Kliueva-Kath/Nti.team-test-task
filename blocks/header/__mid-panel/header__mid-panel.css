@@ -5,3 +5,11 @@
   gap: 50px;
   min-width: 733px;
 }
+
+@media screen and (max-width: 450px) {
+  .header__mid-panel {
+    gap: 0;
+    max-width: 450px;
+    min-width: 0;
+  }
+}

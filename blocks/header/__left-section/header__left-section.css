@@ -3,3 +3,9 @@
   align-items: center;
   gap: 60px;
 }
+
+@media screen and (max-width: 450px) {
+  .header__left-section {
+    gap: 67px;
+  }
+}

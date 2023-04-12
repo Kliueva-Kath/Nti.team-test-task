@@ -6,3 +6,9 @@
   gap: 45px;
   justify-content: start;
 }
+
+@media screen and (max-width: 450px) {
+  .header__nav {
+    display: none;
+  }
+}

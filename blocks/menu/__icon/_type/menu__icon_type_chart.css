@@ -1,0 +1,5 @@
+@media screen and (max-width: 450px) {
+  .menu__icon_type_chart {
+    display: none;
+  }
+}

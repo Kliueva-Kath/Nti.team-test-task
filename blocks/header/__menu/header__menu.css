@@ -7,3 +7,12 @@
   justify-content: flex-end;
   gap: 30px;
 }
+
+@media screen and (max-width: 450px) {
+  .header__menu {
+    gap: 0;
+    justify-content: start;
+    width: auto;
+    margin: 0;
+  }
+}
