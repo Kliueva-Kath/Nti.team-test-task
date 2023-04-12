@@ -1,6 +1,13 @@
 .footer__bottom {
   padding-top: 35px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 450px) {
+  .footer__bottom {
+    padding: 28px 16px 0;
+    flex-direction: column;
+    gap: 30px;
+  }
 }

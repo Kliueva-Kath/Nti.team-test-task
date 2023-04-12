@@ -164,6 +164,9 @@
 @import url("./blocks/footer/__background-image/footer__background-image.css");
 @import url("./blocks/footer/__column-header/footer__column-header.css");
 @import url("./blocks/footer/__column/footer__column.css");
+@import url("./blocks/footer/__column/_type/footer__column_type_account.css");
+@import url("./blocks/footer/__column/_type/footer__column_type_catalogue.css");
+@import url("./blocks/footer/__column/_type/footer__column_type_help.css");
 @import url("./blocks/footer/__columns/footer__columns.css");
 @import url("./blocks/footer/__contact-header/footer__contact-header.css");
 @import url("./blocks/footer/__link-header/footer__link-header.css");
@@ -171,7 +174,9 @@
 @import url("./blocks/footer/__contacts/footer__contacts.css");
 @import url("./blocks/footer/__icon/footer__icon.css");
 @import url("./blocks/footer/__item/footer__item.css");
+@import url("./blocks/footer/__item/_type/footer__item_type_catalogue.css");
 @import url("./blocks/footer/__items/footer__items.css");
+@import url("./blocks/footer/__items/_type/footer__items_type_catalogue.css");
 @import url("./blocks/footer/__link/footer__link.css");
 @import url("./blocks/footer/__top/footer__top.css");
 @import url("./blocks/footer/__logo/footer__logo.css");

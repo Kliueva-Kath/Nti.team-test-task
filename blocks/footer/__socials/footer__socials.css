@@ -6,3 +6,10 @@
   margin: 0;
   align-self: center;
 }
+
+@media screen and (max-width: 450px) {
+  .footer__socials {
+    align-self: flex-start;
+    gap: 30px;
+  }
+}

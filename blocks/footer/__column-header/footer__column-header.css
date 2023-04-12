@@ -3,7 +3,14 @@
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 29px;
+  line-height: 1.16;
   text-align: right;
   color: #292d32;
+}
+
+@media screen and (max-width: 450px) {
+  .footer__column-header {
+    font-size: 18px;
+    line-height: 1.17;
+  }
 }

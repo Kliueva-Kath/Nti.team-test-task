@@ -4,6 +4,13 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  align-items: top;
+  align-items: start;
   width: 1153px;
+}
+
+@media screen and (max-width: 450px) {
+  .footer__contacts {
+    flex-direction: column;
+    gap: 14px;
+  }
 }
