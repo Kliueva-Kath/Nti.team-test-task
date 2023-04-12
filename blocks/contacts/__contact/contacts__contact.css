@@ -3,3 +3,9 @@
   align-items: start;
   gap: 17px;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__contact {
+    gap: 11px;
+  }
+}

@@ -1,0 +1,6 @@
+@media screen and (max-width: 450px) {
+  .contacts__icon {
+    width: 19px;
+    height: 19px;
+  }
+}

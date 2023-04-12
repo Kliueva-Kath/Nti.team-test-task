@@ -1,3 +1,9 @@
 .contacts__input_small {
   height: 59px;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__input_small {
+    height: 40px;
+  }
+}

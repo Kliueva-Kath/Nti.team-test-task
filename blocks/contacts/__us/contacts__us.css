@@ -5,3 +5,11 @@
   border-radius: 20px 0px 0px 20px;
   padding: 100px 165px 111px 100px;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__us {
+    width: 100%;
+    padding: 101px 30px 57px;
+    margin: 0;
+  }
+}

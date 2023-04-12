@@ -4,3 +4,8 @@
   display: flex;
   gap: 18px;
 }
+@media screen and (max-width: 450px) {
+  .contacts__socials {
+    gap: 12px;
+  }
+}

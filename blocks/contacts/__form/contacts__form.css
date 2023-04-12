@@ -6,3 +6,9 @@
   justify-content: space-between;
   padding-top: 14px;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__form {
+    width: 315px;
+  }
+}

@@ -6,3 +6,9 @@
   line-height: 1.33;
   color: #838383;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__header {
+    font-size: 15px;
+  }
+}

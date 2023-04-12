@@ -7,3 +7,10 @@
   color: #292d32;
   margin: 8px 0 50px;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__info {
+    font-size: 18px;
+    margin: 0 0 30px;
+  }
+}

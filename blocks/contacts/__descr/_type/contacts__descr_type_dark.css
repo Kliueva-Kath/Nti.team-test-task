@@ -1,3 +1,9 @@
 .contacts__descr_type_dark {
   color: #ffffff;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__descr_type_dark {
+    margin: 15px 0 36px;
+  }
+}

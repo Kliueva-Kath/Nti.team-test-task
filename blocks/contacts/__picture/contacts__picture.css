@@ -4,3 +4,14 @@
   top: 142px;
   z-index: 2;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__picture {
+    left: 200px;
+    top: 420px;
+    width: 130px;
+    height: 244px;
+    transform: rotate(15deg);
+    object-fit: cover;
+  }
+}

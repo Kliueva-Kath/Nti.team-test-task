@@ -11,3 +11,9 @@
   background: #292d32;
   padding: 0 5px;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__label {
+    font-size: 15px;
+  }
+}

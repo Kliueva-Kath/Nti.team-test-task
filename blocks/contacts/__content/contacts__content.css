@@ -11,3 +11,14 @@
   width: 1400px;
   height: 842px;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__content {
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}

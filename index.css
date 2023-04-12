@@ -155,6 +155,7 @@
 @import url("./blocks/contacts/__title/_type/contacts__title_type_dark.css");
 @import url("./blocks/contacts/__title/_type/contacts__title_type_light.css");
 @import url("./blocks/contacts/__us/contacts__us.css");
+@import url("./blocks/contacts/__social-icon/contacts__social-icon.css");
 
 /* footer */
 

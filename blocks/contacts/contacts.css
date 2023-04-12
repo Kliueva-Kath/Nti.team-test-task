@@ -1,5 +1,15 @@
 .contacts {
+  box-sizing: border-box;
   position: relative;
   background: linear-gradient(0deg, #eeeeee, #eeeeee),
     linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42));
+  display: flex;
+  justify-content: center;
+  /* height: 100%; */
 }
+
+/* @media screen and (max-width: 450px) {
+  .contacts {
+    height: 1181px;
+  }
+} */

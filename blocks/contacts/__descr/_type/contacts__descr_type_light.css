@@ -1,3 +1,9 @@
 .contacts__descr_type_light {
   color: #838383;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__descr_type_light {
+    margin: 15px 0 41px;
+  }
+}

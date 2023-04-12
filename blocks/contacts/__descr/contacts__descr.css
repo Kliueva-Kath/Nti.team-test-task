@@ -6,3 +6,9 @@
   line-height: 1.5;
   margin: 18px 0 53px;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__descr {
+    font-size: 15px;
+  }
+}

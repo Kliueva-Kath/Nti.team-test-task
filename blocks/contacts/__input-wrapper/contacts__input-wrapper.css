@@ -2,3 +2,12 @@
   margin-bottom: 52px;
   position: relative;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__input-wrapper {
+    margin-bottom: 40px;
+  }
+  .contacts__input-wrapper:nth-last-of-type(2) {
+    margin-bottom: 30px;
+  }
+}

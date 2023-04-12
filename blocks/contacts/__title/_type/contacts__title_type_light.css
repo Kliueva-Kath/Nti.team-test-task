@@ -1,3 +1,9 @@
 .contacts__title_type_light {
   color: #292d32;
 }
+
+@media screen and (max-width: 450px) {
+  .contacts__title_type_light {
+    line-height: 1.67;
+  }
+}
