@@ -7,3 +7,9 @@
   color: #838383;
   margin: 0;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__descr {
+    font-size: 15px;
+  }
+}

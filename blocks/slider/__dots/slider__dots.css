@@ -6,3 +6,10 @@
   left: 1302px;
   bottom: 169px;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__dots {
+    left: 177px;
+    bottom: 215px;
+  }
+}

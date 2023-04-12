@@ -10,3 +10,10 @@
 .slider__item.active {
   opacity: 1;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__item {
+    width: 375px;
+    flex-direction: column;
+  }
+}

@@ -6,3 +6,13 @@
   object-fit: contain;
   z-index: 5;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__image {
+    width: 327px;
+    height: 325px;
+    margin-top: 10px;
+    margin-left: 23px;
+    margin-right: auto;
+  }
+}

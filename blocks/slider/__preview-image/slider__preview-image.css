@@ -6,3 +6,12 @@
   max-width: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__preview-image {
+    top: 15px;
+    right: 6px;
+    width: 252px;
+    height: 166px;
+  }
+}

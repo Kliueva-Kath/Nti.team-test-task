@@ -4,3 +4,12 @@
   top: 97.4px;
   z-index: 1;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__background-image {
+    width: 293px;
+    height: 77px;
+    left: 32px;
+    top: 18px;
+  }
+}

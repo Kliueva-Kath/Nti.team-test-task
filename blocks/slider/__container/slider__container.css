@@ -1,3 +1,10 @@
 .slider__container {
   width: 1411px;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__container {
+    width: 375px;
+    height: 593px;
+  }
+}

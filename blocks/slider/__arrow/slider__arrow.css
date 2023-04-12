@@ -1,6 +1,7 @@
 .slider__arrow {
   background-image: url("../../../images/slider-right-arrow.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   border: none;
   background-color: transparent;
   width: 104px;
@@ -12,4 +13,16 @@
 .slider__arrow:hover {
   opacity: 0.7;
   cursor: pointer;
+}
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__arrow {
+    width: 64px;
+    height: 14px;
+    position: absolute;
+    right: 15px;
+    top: -34px;
+
+    margin: 0;
+  }
 }

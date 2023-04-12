@@ -8,3 +8,11 @@
   width: 509px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__next {
+    left: 0;
+    top: 593px;
+    width: 376px;
+  }
+}

@@ -3,3 +3,9 @@
   align-items: center;
   gap: 12px;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .direct {
+    gap: 15px;
+  }
+}

@@ -2,3 +2,10 @@
   margin-top: 253px;
   z-index: 2;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__text {
+    margin-top: 80px;
+    margin-left: 15px;
+  }
+}

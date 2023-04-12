@@ -11,3 +11,12 @@
   white-space: normal;
   z-index: 2;
 }
+
+@media screen and (max-width: 450px) and (min-width: 375px) {
+  .slider__title {
+    font-size: 30px;
+    line-height: 1.17;
+    margin: 5px 0 28px;
+    width: 90%;
+  }
+}
