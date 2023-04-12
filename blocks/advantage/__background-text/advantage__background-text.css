@@ -4,3 +4,12 @@
   left: 0px;
   z-index: 0;
 }
+
+@media screen and (max-width: 450px) {
+  .advantage__background-text {
+    width: 335px;
+    height: 121px;
+    top: 373px;
+    left: 14px;
+  }
+}

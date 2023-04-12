@@ -5,3 +5,9 @@
   box-sizing: border-box;
   padding: 87px 0 46px;
 }
+
+@media screen and (max-width: 450px) {
+  .advantage {
+    padding: 101px 15px 120px;
+  }
+}

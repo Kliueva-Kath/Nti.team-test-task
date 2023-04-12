@@ -10,3 +10,12 @@
   flex-direction: column;
   align-items: start;
 }
+
+@media screen and (max-width: 450px) {
+  .advantage__card {
+    width: 345px;
+    height: 211px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}

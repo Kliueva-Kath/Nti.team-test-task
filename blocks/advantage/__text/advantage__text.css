@@ -3,3 +3,9 @@
   margin-top: 96px;
   max-width: 518px;
 }
+
+@media screen and (max-width: 450px) {
+  .advantage__text {
+    margin-top: 0;
+  }
+}

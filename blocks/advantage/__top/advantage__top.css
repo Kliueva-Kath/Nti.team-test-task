@@ -5,3 +5,9 @@
   padding-left: 165px;
   gap: 74px;
 }
+
+@media screen and (max-width: 450px) {
+  .advantage__top {
+    padding: 0;
+  }
+}

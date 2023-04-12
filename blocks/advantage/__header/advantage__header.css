@@ -7,3 +7,10 @@
   color: #ffffff;
   margin: 25px 0 13px;
 }
+
+@media screen and (max-width: 450px) {
+  .advantage__header {
+    font-size: 18px;
+    margin: 15px 0 10px;
+  }
+}

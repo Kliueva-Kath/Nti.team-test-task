@@ -6,3 +6,12 @@
   list-style: none;
   gap: 27px;
 }
+
+@media screen and (max-width: 450px) {
+  .advantage__cards-container {
+    flex-direction: column;
+    margin-top: 182px;
+    width: 100%;
+    gap: 20px;
+  }
+}

@@ -1,5 +1,14 @@
 .advantage__blue-line {
+  box-sizing: border-box;
   position: absolute;
   right: 0;
   top: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .advantage__blue-line {
+    width: 121px;
+    height: 64px;
+    right: -12px;
+  }
 }

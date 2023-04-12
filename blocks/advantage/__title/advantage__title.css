@@ -6,3 +6,10 @@
   line-height: 1;
   color: #292d32;
 }
+
+@media screen and (max-width: 450px) {
+  .advantage__title {
+    font-size: 30px;
+    line-height: 1.67;
+  }
+}
