@@ -1,0 +1,8 @@
+.slider__image {
+  width: 557px;
+  height: 555px;
+  margin-top: 74px;
+  margin-right: 60px;
+  object-fit: contain;
+  z-index: 5;
+}

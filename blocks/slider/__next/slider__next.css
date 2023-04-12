@@ -1,0 +1,10 @@
+.slider__next {
+  position: absolute;
+  left: 1411px;
+  height: 100%;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  width: 509px;
+  box-sizing: border-box;
+}

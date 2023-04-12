@@ -1,0 +1,12 @@
+.slider__item {
+  background: #f2f2f2;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  width: 1411px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider__item.active {
+  opacity: 1;
+}

@@ -1,5 +1,5 @@
 .contacts {
   position: relative;
   background: linear-gradient(0deg, #eeeeee, #eeeeee),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url(.jpg);
+    linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42));
 }

@@ -33,6 +33,28 @@
 @import url("./blocks/menu/__items-quantity/menu__items-quantity.css");
 @import url("./blocks/menu/__link/menu__link.css");
 
+/* slider section */
+
+@import url("./blocks/slider/slider.css");
+@import url("./blocks/slider/__arrow/slider__arrow.css");
+@import url("./blocks/slider/__background-image/slider__background-image.css");
+@import url("./blocks/slider/__container/slider__container.css");
+@import url("./blocks/slider/__descr/slider__descr.css");
+@import url("./blocks/slider/__dot/slider__dot.css");
+@import url("./blocks/slider/__dots/slider__dots.css");
+@import url("./blocks/slider/__image/slider__image.css");
+@import url("./blocks/slider/__item/slider__item.css");
+@import url("./blocks/slider/__preview-image/slider__preview-image.css");
+@import url("./blocks/slider/__preview-text/slider__preview-text.css");
+@import url("./blocks/slider/__preview/slider__preview.css");
+@import url("./blocks/slider/__scroll-icon/slider__scroll-icon.css");
+@import url("./blocks/slider/__scroll-text/slider__scroll-text.css");
+@import url("./blocks/slider/__scroll/slider__scroll.css");
+@import url("./blocks/slider/__items/slider__items.css");
+@import url("./blocks/slider/__text/slider__text.css");
+@import url("./blocks/slider/__title/slider__title.css");
+@import url("./blocks/slider/__next/slider__next.css");
+
 /* catalogue section */
 
 @import url("./blocks/catalogue/catalogue.css");

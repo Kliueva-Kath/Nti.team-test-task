@@ -1,0 +1,9 @@
+.slider__scroll {
+  margin-left: 263px;
+  margin: 200px 108px 0 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}

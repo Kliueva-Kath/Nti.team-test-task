@@ -1,0 +1,6 @@
+.slider__background-image {
+  position: absolute;
+  left: 260px;
+  top: 97.4px;
+  z-index: 1;
+}

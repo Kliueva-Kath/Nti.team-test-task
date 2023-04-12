@@ -1,0 +1,10 @@
+.slider__arrow {
+  background-image: url("../../../images/slider-right-arrow.svg");
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+  width: 104px;
+  height: 21px;
+  z-index: 4;
+  margin-left: 40px;
+}

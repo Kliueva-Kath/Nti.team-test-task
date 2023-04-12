@@ -1,0 +1,8 @@
+.slider {
+  width: 1920px;
+  display: flex;
+  position: relative;
+  height: 683px;
+  overflow: hidden;
+  white-space: nowrap;
+}

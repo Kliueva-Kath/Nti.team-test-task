@@ -9,6 +9,7 @@
   </head>
   <body class="body">
     <div class="page">
+      <!-- HEADER -->
       <header class="header">
         <div class="header__left-section">
           <img class="header__logo" src="./images/header__logo.svg" />
@@ -76,8 +77,154 @@
         </ul>
       </header>
       <main class="content">
-        <section class="slider"></section>
-
+        <!-- SLIDER -->
+        <section class="slider">
+          <div class="slider__container">
+            <div class="slider__items">
+              <!-- item 1 -->
+              <div class="slider__item active">
+                <img
+                  class="slider__background-image"
+                  src="./images/slider-Dell.svg"
+                  alt="Dell"
+                />
+                <div class="slider__scroll">
+                  <span class="slider__scroll-text">Scroll to catalog</span>
+                  <img
+                    class="slider__scroll-icon"
+                    src="./images/slider-scroll.svg"
+                    alt="значок скролла"
+                  />
+                </div>
+                <div class="slider__text">
+                  <p class="slider__descr">Новое поступление</p>
+                  <span class="slider__title"
+                    >Лучшие товары от компании Dell</span
+                  >
+                  <div class="direct">
+                    <button class="direct__button"></button>
+                    <a class="direct__link">Подробнее</a>
+                  </div>
+                </div>
+                <img
+                  class="slider__image"
+                  src="./images/slider-laptop-best.png"
+                  alt="ноутбук"
+                />
+              </div>
+              <!-- item 2 -->
+              <div class="slider__item">
+                <img
+                  class="slider__background-image"
+                  src="./images/slider-Dell.svg"
+                  alt="Dell"
+                />
+                <div class="slider__scroll">
+                  <span class="slider__scroll-text">Scroll to catalog</span>
+                  <img
+                    class="slider__scroll-icon"
+                    src="./images/slider-scroll.svg"
+                    alt="значок скролла"
+                  />
+                </div>
+                <div class="slider__text">
+                  <p class="slider__descr">Скидки</p>
+                  <span class="slider__title"
+                    >Выгодное предложение от Dell</span
+                  >
+                  <div class="direct">
+                    <button class="direct__button"></button>
+                    <a class="direct__link">Подробнее</a>
+                  </div>
+                </div>
+                <img
+                  class="slider__image"
+                  src="./images/slider-laptop-cheap.png"
+                  alt="ноутбук"
+                />
+              </div>
+              <!-- item 3 -->
+              <div class="slider__item">
+                <img
+                  class="slider__background-image"
+                  src="./images/slider-Dell.svg"
+                  alt="Dell"
+                />
+                <div class="slider__scroll">
+                  <span class="slider__scroll-text">Scroll to catalog</span>
+                  <img
+                    class="slider__scroll-icon"
+                    src="./images/slider-scroll.svg"
+                    alt="значок скролла"
+                  />
+                </div>
+                <div class="slider__text">
+                  <p class="slider__descr">Новое поступление</p>
+                  <span class="slider__title"
+                    >Лучшие товары от компании Dell</span
+                  >
+                  <div class="direct">
+                    <button class="direct__button"></button>
+                    <a class="direct__link">Подробнее</a>
+                  </div>
+                </div>
+                <img
+                  class="slider__image"
+                  src="./images/slider-laptop-3.png"
+                  alt="ноутбук"
+                />
+              </div>
+              <!-- item 4 -->
+              <div class="slider__item">
+                <img
+                  class="slider__background-image"
+                  src="./images/slider-Dell.svg"
+                  alt="Dell"
+                />
+                <div class="slider__scroll">
+                  <span class="slider__scroll-text">Scroll to catalog</span>
+                  <img
+                    class="slider__scroll-icon"
+                    src="./images/slider-scroll.svg"
+                    alt="значок скролла"
+                  />
+                </div>
+                <div class="slider__text">
+                  <p class="slider__descr">Новое поступление</p>
+                  <span class="slider__title"
+                    >Лучшие товары от компании Dell</span
+                  >
+                  <div class="direct">
+                    <button class="direct__button"></button>
+                    <a class="direct__link">Подробнее</a>
+                  </div>
+                </div>
+                <img
+                  class="slider__image"
+                  src="./images/slider-laptop-best.png"
+                  alt="ноутбук"
+                />
+              </div>
+            </div>
+            <!-- dots -->
+            <div class="slider__dots"></div>
+            <!-- переключение на следующий слайд -->
+          </div>
+          <div class="slider__next">
+            <div class="slider__preview">
+              <img
+                class="slider__preview-image"
+                src="./images/slider-laptop-cheap.png"
+                alt="Next slide preview"
+              />
+              <span class="slider__preview-text"
+                >Выгодное предложение от Dell</span
+              >
+            </div>
+            <button class="slider__arrow button" type="button"></button>
+          </div>
+        </section>
+        <!-- CATALOGUE -->
         <section class="catalogue">
           <ul class="catalogue__container">
             <li class="catalogue__title-card">
@@ -167,7 +314,7 @@
             </li>
           </ul>
         </section>
-
+        <!-- ADVANTAGE -->
         <section class="advantage">
           <img
             class="advantage__background-text"
@@ -263,7 +410,7 @@
             </ul>
           </div>
         </section>
-
+        <!-- NEWS -->
         <section class="news">
           <div class="news__container">
             <div class="news__top">
@@ -428,7 +575,7 @@
             </div>
           </div>
         </section>
-
+        <!-- CONTACTS -->
         <section class="contacts">
           <img
             class="contacts__background-image"
@@ -547,7 +694,7 @@
           </ul>
         </section>
       </main>
-
+      <!-- FOOTER -->
       <footer class="footer">
         <img
           class="footer__background-image"
@@ -670,5 +817,6 @@
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

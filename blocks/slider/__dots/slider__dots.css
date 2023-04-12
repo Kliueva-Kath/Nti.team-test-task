@@ -1,0 +1,8 @@
+.slider__dots {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  left: 1302px;
+  bottom: 169px;
+}

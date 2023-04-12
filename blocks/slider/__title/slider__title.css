@@ -1,0 +1,13 @@
+.slider__title {
+  max-width: 446px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.18;
+  color: #292d32;
+  margin: 16px 0 60px;
+  display: block;
+  white-space: normal;
+  z-index: 2;
+}

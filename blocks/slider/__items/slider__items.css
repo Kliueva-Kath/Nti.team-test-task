@@ -1,0 +1,16 @@
+.slider__items {
+  /*   display: flex;
+  position: relative;
+  height: 683px;
+  width: 400%;
+
+  overflow: hidden;
+  white-space: nowrap; */
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+  height: 100%;
+  width: 400%;
+}
