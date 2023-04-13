@@ -1,8 +1,13 @@
 .account-popup {
   width: 405px;
   height: 389px;
-  z-index: 10;
+  z-index: 11;
   position: absolute;
   bottom: -423px;
   left: -178px;
+  display: none;
+}
+
+.account-popup.active {
+  display: flex;
 }

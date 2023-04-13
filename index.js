@@ -80,33 +80,6 @@ updatePreview();
 // show first slide and start slider
 showSlide(0);
 
-// МЕНЮ
-
-const popup = document.querySelector(".menu-popup");
-const toggleBtn = document.querySelector(".menu__show-button");
-
-function toggleMenu() {
-  if (popup.classList.contains("active")) {
-    popup.classList.remove("active");
-    toggleBtn.style.backgroundImage =
-      "url('../../../images/header-menu-icon.svg')";
-  } else {
-    popup.classList.add("active");
-    toggleBtn.style.backgroundImage =
-      "url('../../../images/header-close-icon.svg')";
-  }
-}
-
-toggleBtn.addEventListener("click", () => {
-  toggleMenu();
-});
-
-popup.addEventListener("mousedown", (evt) => {
-  if (evt.target === evt.currentTarget) {
-    toggleMenu();
-  }
-});
-
 // ВАЛИДАЦИЯ ФОРМЫ
 
 const form = document.querySelector(".form");
@@ -166,3 +139,47 @@ function hideInputError(input) {
   errorElement.textContent = input.validationMessage;
   errorElement.classList.add("active");
 }
+
+// ПОПАП МОБИЛЬНОГО МЕНЮ
+
+const menuPopup = document.querySelector(".menu-popup");
+const toggleBtn = document.querySelector(".menu__show-button");
+
+function toggleMenu() {
+  if (menuPopup.classList.contains("active")) {
+    menuPopup.classList.remove("active");
+    toggleBtn.style.backgroundImage =
+      "url('../../../images/header-menu-icon.svg')";
+  } else {
+    menuPopup.classList.add("active");
+    toggleBtn.style.backgroundImage =
+      "url('../../../images/header-close-icon.svg')";
+  }
+}
+
+toggleBtn.addEventListener("click", () => {
+  toggleMenu();
+});
+
+menuPopup.addEventListener("mousedown", (evt) => {
+  if (evt.target === evt.currentTarget) {
+    toggleMenu();
+  }
+});
+
+// ПОПАП МЕНЮ АККАУНТА
+
+const accountPopup = document.querySelector(".account-popup");
+const openAccountButton = document.getElementById("account-icon");
+
+function toggleAccountMenu() {
+  if (accountPopup.classList.contains("active")) {
+    accountPopup.classList.remove("active");
+  } else {
+    accountPopup.classList.add("active");
+  }
+}
+
+openAccountButton.addEventListener("click", () => {
+  toggleAccountMenu();
+});
