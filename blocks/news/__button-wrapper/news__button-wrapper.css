@@ -1,0 +1,20 @@
+.news__button-wrapper {
+  border-radius: 50%;
+  display: block;
+  box-sizing: content-box;
+  border: 11px solid #ffffff;
+  height: 44px;
+  width: 44px;
+  margin-top: 234px;
+  margin-right: 27px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 450px) {
+  .news__button-wrapper {
+    margin-top: 161px;
+    height: 32px;
+    width: 32px;
+    margin-right: 24px;
+  }
+}

@@ -1,0 +1,17 @@
+.news__border-vector {
+  position: absolute;
+  object-fit: contain;
+  top: 246px;
+  right: 17px;
+  z-index: 2;
+  opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+  .news__border-vector {
+    top: 176px;
+    right: 5px;
+    /*     width: 77px;
+    height: 29px; */
+  }
+}
