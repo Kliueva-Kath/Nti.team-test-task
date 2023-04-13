@@ -1,0 +1,10 @@
+.popup__link {
+  text-decoration: none;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #292d32;
+}
