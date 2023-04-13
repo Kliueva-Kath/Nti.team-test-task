@@ -1,3 +1,5 @@
-.footer__column_type_help {
-  order: 1;
+@media screen and (max-width: 450px) {
+  .footer__column_type_help {
+    order: 1;
+  }
 }

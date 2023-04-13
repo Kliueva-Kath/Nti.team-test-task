@@ -1,4 +1,6 @@
-.footer__column_type_catalogue {
-  order: 3;
-  width: 100%;
+@media screen and (max-width: 450px) {
+  .footer__column_type_catalogue {
+    order: 3;
+    width: 100%;
+  }
 }

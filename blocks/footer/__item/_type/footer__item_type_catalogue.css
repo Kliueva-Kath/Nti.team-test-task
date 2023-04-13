@@ -1,3 +1,5 @@
-.footer__item_type_catalogue {
-  width: min-content;
+@media screen and (max-width: 450px) {
+  .footer__item_type_catalogue {
+    width: min-content;
+  }
 }

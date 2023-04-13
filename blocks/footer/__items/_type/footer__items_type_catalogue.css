@@ -1,6 +1,8 @@
-.footer__items_type_catalogue {
-  flex-wrap: wrap;
-  max-height: 100px;
-  column-gap: 60px;
-  max-width: 100%;
+@media screen and (max-width: 450px) {
+  .footer__items_type_catalogue {
+    flex-wrap: wrap;
+    max-height: 100px;
+    column-gap: 60px;
+    max-width: 100%;
+  }
 }
