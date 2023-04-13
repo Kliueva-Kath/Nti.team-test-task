@@ -246,3 +246,87 @@ popup.addEventListener("mousedown", (evt) => {
     toggleMenu();
   }
 });
+
+// ВАЛИДАЦИЯ ФОРМЫ
+
+const form = document.querySelector(".form");
+const inputs = form.querySelectorAll(".form__input");
+const nameInput = form.querySelector("#name");
+const phoneInput = form.querySelector("#phone");
+
+const nameRegex = /^[a-zA-Zа-яА-Я\s]+$/;
+const phoneRegex = /^\+?[0-9]{10,14}$/;
+// Функция для проверки, является ли строка номером телефона
+function isPhoneNumber(value) {
+  return phoneRegex.test(value);
+}
+// Функция для проверки, что имя содержит только латиницу и кириллицу
+function validateName() {
+  if (!nameRegex.test(nameInput.value)) {
+    showInputError(nameInput);
+    return false;
+  }
+  hideInputError(nameInput);
+  return true;
+}
+
+// Функция для проверки номера телефона
+function validatePhone() {
+  if (!isPhoneNumber(phoneInput.value)) {
+    showInputError(phoneInput);
+    return false;
+  }
+  hideInputError(phoneInput);
+  return true;
+}
+
+function handleSubmit(event) {
+  event.preventDefault(); // Отменяем стандартное поведение формы
+
+  // Проверяем, что имя содержит только латиницу и кириллицу
+  if (!validateName()) {
+    return;
+  }
+
+  // Проверяем номер телефона
+  if (!validatePhone()) {
+    return;
+  }
+}
+
+console.log(handleSubmit);
+// Добавляем обработчик события отправки формы
+form.addEventListener("submit", handleSubmit);
+
+/* 
+function checkInputValidity(input) {
+  if (!input.validity.valid) {
+    showInputError(input);
+  } else {
+    hideInputError(input);
+  }
+}
+*/
+function showInputError(input) {
+  const errorElement = form.querySelector(`.${input.id}-error`);
+  // input.classList.add(this._inputErrorClass);
+  // errorElement.textContent = input.validationMessage;
+  errorElement.classList.add("active");
+}
+
+function hideInputError(input) {
+  const errorElement = form.querySelector(`.${input.id}-error`);
+  errorElement.textContent = input.validationMessage;
+  errorElement.classList.add("active");
+}
+/*
+function handleSubmit(event) {
+  event.preventDefault();
+  inputs.forEach((input) => {
+    checkInputValidity(input);
+  });
+}
+
+// Добавляем обработчик события отправки формы
+form.addEventListener("submit", handleSubmit);
+ */

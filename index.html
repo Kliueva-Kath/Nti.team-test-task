@@ -663,32 +663,47 @@
               <p class="contacts__descr contacts__descr_type_dark">
                 Оставьте свой номер, и мы перезвоним Вам.
               </p>
-              <form class="contacts__form">
-                <div class="contacts__input-wrapper">
-                  <label class="contacts__label">Ваше имя</label>
+              <form class="contacts__form form" novalidate>
+                <div class="form__input-wrapper">
+                  <label class="form__label">Ваше имя</label>
                   <input
-                    class="contacts__input contacts__input_small"
+                    class="form__input form__input_small"
+                    id="name"
                     type="text"
+                    minlength="2"
+                    required
                   />
+                  <span class="form__input-error name-error"
+                    >Имя должно содержать только латиницу и кириллицу</span
+                  >
                 </div>
-                <div class="contacts__input-wrapper">
-                  <label class="contacts__label">Номер телефона</label>
+                <div class="form__input-wrapper">
+                  <label class="form__label">Номер телефона</label>
                   <input
-                    class="contacts__input contacts__input_small"
+                    class="form__input form__input_small"
+                    id="phone"
                     type="tel"
+                    required
                   />
+                  <span class="form__input-error phone-error"
+                    >Пожалуйста, введите корректный номер телефона</span
+                  >
                 </div>
-                <div class="contacts__input-wrapper">
-                  <label class="contacts__label">Комментарий</label>
+                <div class="form__input-wrapper">
+                  <label class="form__label">Комментарий</label>
                   <input
-                    class="contacts__input contacts__input_big"
+                    class="form__input form__input_big"
+                    id="comment"
                     type="text"
                   />
+                  <span
+                    class="form__input-error form__input-error_type_comment"
+                  ></span>
                 </div>
-                <div class="contacts__button-wrapper direct">
+                <div class="form__button-wrapper direct">
                   <button
                     type="submit"
-                    class="contacts__submit-bttn button direct__button"
+                    class="form__submit-bttn button direct__button"
                   ></button>
                   <label class="direct__link direct__link_dark">Заказать</label>
                 </div>

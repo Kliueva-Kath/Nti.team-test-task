@@ -1,0 +1,17 @@
+.form__input-error {
+  color: red;
+  position: absolute;
+  top: 62px;
+  left: 5px;
+  display: none;
+}
+
+.form__input-error.active {
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .form__input-error {
+    top: 43px;
+  }
+}
