@@ -1,7 +1,5 @@
 .news__picture {
   border-radius: 45px 0px 45px 0px;
-  /*   max-height: 262px;
-  object-fit: fill; */
   position: absolute;
   z-index: 0;
 }

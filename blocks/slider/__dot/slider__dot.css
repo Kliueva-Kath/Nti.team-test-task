@@ -3,10 +3,7 @@
   display: block;
   width: 5px;
   height: 5px;
-  /* Unnamed Color */
   background: #d0d0d0;
-
-  /* Inside auto layout */
   flex: none;
   order: 4;
   flex-grow: 0;
@@ -16,7 +13,6 @@
   width: 9px;
   height: 9px;
   background: #292d32;
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
