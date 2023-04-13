@@ -1,4 +1,11 @@
 .catalogue__title-card {
   height: 211px;
+
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .catalogue__title-card {
+    align-self: flex-end;
+  }
 }
