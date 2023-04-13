@@ -1,0 +1,6 @@
+.account-popup__account {
+  padding: 30px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+}

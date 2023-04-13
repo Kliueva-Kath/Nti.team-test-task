@@ -1,0 +1,14 @@
+.account-popup__link {
+  font-family: "Roboto", "Arial", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+  width: 100%;
+  padding: 0px 30px;
+}
+.account-popup__link:hover {
+  opacity: 0.7;
+}

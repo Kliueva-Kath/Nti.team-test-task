@@ -1,0 +1,8 @@
+.account-popup {
+  width: 405px;
+  height: 389px;
+  z-index: 10;
+  position: absolute;
+  bottom: -423px;
+  left: -178px;
+}

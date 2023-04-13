@@ -192,7 +192,20 @@
 @import url("./blocks/footer/__bottom/footer__bottom.css");
 @import url("./blocks/footer/__contact-info/footer__contact-info.css");
 
+/* mobile menu popup */
+
 @import url("./blocks/menu-popup/menu-popup.css");
 @import url("./blocks/menu-popup/__container/menu-popup__container.css");
 @import url("./blocks/menu-popup/__item/menu-popup__item.css");
 @import url("./blocks/menu-popup/__link/menu-popup__link.css");
+
+/* account popup */
+@import url("./blocks/account-popup/account-popup.css");
+@import url("./blocks/account-popup/__corner/account-popup__corner.css");
+@import url("./blocks/account-popup/__account/account-popup__account.css");
+@import url("./blocks/account-popup/__icon-link/account-popup__icon-link.css");
+@import url("./blocks/account-popup/__container/account-popup__container.css");
+@import url("./blocks/account-popup/__icon/account-popup__icon.css");
+@import url("./blocks/account-popup/__item/account-popup__item.css");
+@import url("./blocks/account-popup/__link/account-popup__link.css");
+@import url("./blocks/account-popup/__account-link/account-popup__account-link.css");
