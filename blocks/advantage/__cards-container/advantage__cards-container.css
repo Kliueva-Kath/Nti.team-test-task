@@ -5,6 +5,7 @@
   padding: 0;
   list-style: none;
   gap: 27px;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 450px) {
