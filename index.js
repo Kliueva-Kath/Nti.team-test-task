@@ -219,3 +219,30 @@ updateDots(currentSlide);
 updatePreview();
 // show first slide and start slider
 showSlide(0);
+
+// МЕНЮ
+
+const popup = document.querySelector(".popup");
+const toggleBtn = document.querySelector(".menu__show-button");
+
+function toggleMenu() {
+  if (popup.classList.contains("active")) {
+    popup.classList.remove("active");
+    toggleBtn.style.backgroundImage =
+      "url('../../../images/header-menu-icon.svg')";
+  } else {
+    popup.classList.add("active");
+    toggleBtn.style.backgroundImage =
+      "url('../../../images/header-close-icon.svg')";
+  }
+}
+
+toggleBtn.addEventListener("click", () => {
+  toggleMenu();
+});
+
+popup.addEventListener("mousedown", (evt) => {
+  if (evt.target === evt.currentTarget) {
+    toggleMenu();
+  }
+});
