@@ -140,22 +140,27 @@
 @import url("./blocks/contacts/__info/_type/contact__info_type_address.css");
 @import url("./blocks/contacts/__info/_type/contact__info_type_email.css");
 @import url("./blocks/contacts/__info/_type/contact__info_type_phone.css");
-@import url("./blocks/contacts/__input/contacts__input.css");
-@import url("./blocks/contacts/__input/contacts__input_big.css");
-@import url("./blocks/contacts/__input/contacts__input_small.css");
-@import url("./blocks/contacts/__input-wrapper/contacts__input-wrapper.css");
-@import url("./blocks/contacts/__label/contacts__label.css");
 @import url("./blocks/contacts/__link/contacts__link.css");
 @import url("./blocks/contacts/__picture/contacts__picture.css");
 @import url("./blocks/contacts/__social/contacts__social.css");
 @import url("./blocks/contacts/__socials/contacts__socials.css");
-@import url("./blocks/contacts/__submit-bttn/contacts__submit-bttn.css");
 @import url("./blocks/contacts/__text/contacts__text.css");
 @import url("./blocks/contacts/__title/contacts__title.css");
 @import url("./blocks/contacts/__title/_type/contacts__title_type_dark.css");
 @import url("./blocks/contacts/__title/_type/contacts__title_type_light.css");
 @import url("./blocks/contacts/__us/contacts__us.css");
 @import url("./blocks/contacts/__social-icon/contacts__social-icon.css");
+
+/* form */
+
+@import url("./blocks/form/form.css");
+@import url("./blocks/form/__input-wrapper/form__input-wrapper.css");
+@import url("./blocks/form/__input/form__input.css");
+@import url("./blocks/form/__input/form__input_big.css");
+@import url("./blocks/form/__input/form__input_small.css");
+@import url("./blocks/form/__label/form__label.css");
+@import url("./blocks/form/__submit-bttn/form__submit-bttn.css");
+@import url("./blocks/form/__input-error/form__input-error.css");
 
 /* footer */
 
