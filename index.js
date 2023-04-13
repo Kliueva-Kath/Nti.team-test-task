@@ -82,7 +82,7 @@ showSlide(0);
 
 // МЕНЮ
 
-const popup = document.querySelector(".popup");
+const popup = document.querySelector(".menu-popup");
 const toggleBtn = document.querySelector(".menu__show-button");
 
 function toggleMenu() {

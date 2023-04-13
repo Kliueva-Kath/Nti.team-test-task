@@ -1,4 +1,4 @@
-.popup {
+.menu-popup {
   position: absolute;
   top: 90px;
   left: 0;
@@ -9,6 +9,6 @@
   display: none;
 }
 
-.popup.active {
+.menu-popup.active {
   display: block;
 }
