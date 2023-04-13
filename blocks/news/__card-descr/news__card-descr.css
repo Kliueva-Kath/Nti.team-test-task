@@ -1,6 +1,10 @@
+.news__card-descr {
+  margin: 10px 30px;
+}
+
 @media screen and (max-width: 450px) {
   .news__card-descr {
-    padding: 0 20px 20px;
+    padding: 10px 20px 20px;
     margin: 0;
   }
 }
